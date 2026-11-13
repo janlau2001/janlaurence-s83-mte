@@ -254,6 +254,7 @@ h2 {
 .ring-card {
   background: #fff;
   border: 1px solid var(--line);
+  border-radius: 0;
   height: 100%;
   transition: transform 0.3s, box-shadow 0.3s;
 }
