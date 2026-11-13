@@ -4,12 +4,270 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Testing</title>
+
+    <title>AMORELO | Fine rings for every story</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-xl site-nav fixed-top">
+        <div class="container">
+            <a class="navbar-brand brand" href="#home">Amore<span>lo</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto nav-links">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pieces">Collection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#featured">Featured</a></li>
+                </ul>
+                <a href="#visit" class="btn nav-btn">Book a Visit</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 hero-text">
+                    <p class="eyebrow">Fine Jewellery &middot; Est. 1998</p>
+                    <h1>Rings made to hold <em>your</em> story.</h1>
+                    <p class="hero-lead">Wedding bands and everyday heirlooms, shaped by hand in gold, silver and
+                        platinum. Quietly beautiful, built to be worn for a lifetime.</p>
+                    <div class="hero-actions">
+                        <a href="#pieces" class="btn btn-gold">Shop the Collection</a>
+                        <a href="#featured" class="link-line">Featured pair</a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-photo">
+                        <img src="images/Hand and Ring-1.png" alt="A hand wearing a handcrafted ring">
+                        <div class="hero-tag">
+                            <span>New season</span>
+                            <strong>The Eclipse Edit</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- COLLECTION -->
+    <section class="collection" id="pieces">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow">The Collection</p>
+                <h2>Pieces we love most</h2>
+                <p class="section-sub">Five designs, each with its own character. Pick the one that sounds like you.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <article class="ring-card">
+                        <div class="ring-img">
+                            <img src="images/Two-Tone Eclipse Wedding Ring.png" alt="Two-Tone Eclipse Wedding Ring">
+                            <span class="badge-new">Bestseller</span>
+                        </div>
+                        <div class="ring-info">
+                            <h3>Two-Tone Eclipse</h3>
+                            <p class="ring-meta">Gold &amp; silver || Wedding ring</p>
+                            <div class="ring-foot">
+                                <span class="price">$1,280</span>
+                                <a href="#visit" class="card-link">View</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="ring-card">
+                        <div class="ring-img">
+                            <img src="images/Celestial Constellation Wedding Band.png" alt="Celestial Constellation Wedding Band">
+                        </div>
+                        <div class="ring-info">
+                            <h3>Celestial Constellation</h3>
+                            <p class="ring-meta">18k gold || Wedding band</p>
+                            <div class="ring-foot">
+                                <span class="price">$1,640</span>
+                                <a href="#visit" class="card-link">View</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="ring-card">
+                        <div class="ring-img">
+                            <img src="images/Sculpted Silver Wave Chevron Ring.png" alt="Sculpted Silver Wave Chevron Ring">
+                            <span class="badge-new">New</span>
+                        </div>
+                        <div class="ring-info">
+                            <h3>Silver Wave Chevron</h3>
+                            <p class="ring-meta">Sterling silver || Statement ring</p>
+                            <div class="ring-foot">
+                                <span class="price">$690</span>
+                                <a href="#visit" class="card-link">View</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article class="ring-card">
+                        <div class="ring-img">
+                            <img src="images/Tech-Root Engraved Wedding Band.png" alt="Tech-Root Engraved Wedding Band">
+                        </div>
+                        <div class="ring-info">
+                            <h3>Tech-Root Engraved</h3>
+                            <p class="ring-meta">Platinum || Wedding band</p>
+                            <div class="ring-foot">
+                                <span class="price">$1,150</span>
+                                <a href="#visit" class="card-link">View</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article class="ring-card">
+                        <div class="ring-img">
+                            <img src="images/Interlocking Gold and Silver Wedding Rings.png" alt="Interlocking Gold and Silver Wedding Rings">
+                        </div>
+                        <div class="ring-info">
+                            <h3>Interlocking Gold &amp; Silver</h3>
+                            <p class="ring-meta">A matching pair || Wedding rings</p>
+                            <div class="ring-foot">
+                                <span class="price">$2,350</span>
+                                <a href="#visit" class="card-link">View</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="featured" id="featured">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="featured-photo">
+                        <img src="images/Interlocking Gold and Silver Wedding Rings.png" alt="Interlocking gold and silver rings">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 order-lg-1">
+                    <p class="eyebrow">Featured Pair</p>
+                    <h2>Two metals, one promise.</h2>
+                    <p class="featured-text">Our best-loved set links a warm gold band with a cool silver one. Each ring
+                        stands on its own, and together they lock into a single piece &mdash; a small reminder of what
+                        marriage really is.</p>
+
+                    <ul class="featured-list">
+                        <li><span>Metal</span> 18k yellow gold &amp; 925 silver</li>
+                        <li><span>Width</span> 3mm &amp; 4mm, comfort fit</li>
+                        <li><span>Finish</span> Polished with a brushed edge</li>
+                        <li><span>Lead time</span> 2 &ndash; 3 weeks</li>
+                    </ul>
+
+                    <div class="featured-buy">
+                        <span class="price big">$2,350</span>
+                        <a href="#visit" class="btn btn-gold">Reserve this pair</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOK A VISIT -->
+    <section class="visit" id="visit">
+        <div class="container">
+            <div class="visit-box">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6">
+                        <p class="eyebrow">Private Appointments</p>
+                        <h2>Try them on, in person.</h2>
+                        <p>Book a quiet one-hour session with one of our jewellers. Champagne is on us.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="visit-form">
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Your name" aria-label="Your name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" placeholder="Email address" aria-label="Email address">
+                                </div>
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-gold w-100">Request an appointment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <a class="brand footer-brand" href="#home">Amore<span>lo</span></a>
+                    <p class="footer-about">Handcrafted rings for the moments worth keeping. Designed in small batches,
+                        made to last.</p>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-2">
+                    <h5>Shop</h5>
+                    <ul>
+                        <li><a href="#pieces">Wedding Bands</a></li>
+                        <li><a href="#featured">Pairs</a></li>
+                        <li><a href="#pieces">Statement</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#visit">Appointments</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Visit</h5>
+                    <ul class="plain">
+                        <li>14 Rue Dorée</li>
+                        <li>Mon &ndash; Sat, 10 &ndash; 6</li>
+                        <li>hello@amorelo.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2026 Amorelo. All rights reserved.</span>
+                <span>Privacy &middot; Terms</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     
 </body>
+
 </html>
